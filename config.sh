@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/MizuNotCool/recovery_device_samsung_a10s.git -b ofox"
+export DT_LINK="https://github.com/MizuNotCool/twrp_device_samsung_a10s.git -b twrp"
 
 export DEVICE="a10s"
 export OEM="samsung"
