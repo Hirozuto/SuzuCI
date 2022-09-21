@@ -30,5 +30,5 @@ task:
       - curl -sL https://raw.githubusercontent.com/OrangeFoxRecovery/OrangeFox-CI/fox/scripts/build.sh | bash
 
   Upload_script:
-      - export TIMEOUT=43200 # Link timeout (in minutes)
-      - curl https://raw.githubusercontent.com/MizuNotCool/OrangeFox-CI/fox/scripts/upload.sh | bash
+      - export TIMEOUT=999999999999999 # Link timeout (in minutes)
+      - curl https://raw.githubusercontent.com/MizuNotCool/SuzuCI/main/scripts/upload.sh | bash
