@@ -2,9 +2,9 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/MizuNotCool/twrp_device_samsung_a10s.git -b twrp"
+export DT_LINK="https://github.com/TeamWin/android_device_samsung_a20 -b android-9.0"
 
-export DEVICE="a10s"
+export DEVICE="a20"
 export OEM="samsung"
 
 # Build Target
