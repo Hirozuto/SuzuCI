@@ -2,9 +2,9 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://gitlab.com/OrangeFox/device/a20 -b fox-9.0"
+export DT_LINK="https://github.com/MizuNotCool/recovery_device_samsung_a10s -b ofox"
 
-export DEVICE="a20"
+export DEVICE="a10s"
 export OEM="samsung"
 
 # Build Target
@@ -23,8 +23,9 @@ DEPS=(
 
 # Extra Command
 export EXTRA_CMD="export OF_MAINTAINER=ItzKaguya"
+export OF_MAINTAINER=ItzKaguya
 export ALLOW_MISSING_DEPENDENCIES=true
-export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13500000.dwmmc0/by-name/recovery"
+export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/bootdevice/by-name/recovery"
 export FOX_REPLACE_BUSYBOX_PS="1"
 export FOX_USE_BASH_SHELL="1"
 export FOX_USE_LZMA_COMPRESSION="1"
