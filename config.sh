@@ -44,10 +44,13 @@ export TW_DEFAULT_LANGUAGE="en"
 export FOX_VERSION="R11.0"
 export FOX_R11="1"
 export USE_CCACHE="1"
-export OF_FLASHLIGHT_ENABLE="0"
+export OF_FLASHLIGHT_ENABLE="1"
 export OF_SCREEN_H="1520"
 export FOX_BUILD_TYPE="ItzKaguya-Beta"
 export FOX_ADVANCED_SECURITY="1"
+export OF_FL_PATH1="/sys/devices/platform/flashlights_led191/led_flash"
+export OF_TARGET_DEVICES="a10s,a10sxx
+export OF_MAINTAINER_AVATAR="$(pwd)/misc/ItzKaguya.png"
 
 
 # Magisk
