@@ -45,8 +45,8 @@ export FOX_VERSION="R11.0"
 export FOX_R11="1"
 export USE_CCACHE="1"
 export OF_FLASHLIGHT_ENABLE="0"
-export OF_SCREEN_H="2340"
-export FOX_BUILD_TYPE="Beta"
+export OF_SCREEN_H="1520"
+export FOX_BUILD_TYPE="ItzKaguya-Beta"
 export FOX_ADVANCED_SECURITY="1"
 
 
