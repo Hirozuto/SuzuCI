@@ -49,7 +49,8 @@ export OF_SCREEN_H="1520"
 export FOX_BUILD_TYPE="ItzKaguya-Beta"
 export FOX_ADVANCED_SECURITY="1"
 export OF_FL_PATH1="/sys/devices/platform/flashlights_led191/led_flash"
-export OF_TARGET_DEVICES="a10s,a10sxx
+export OF_TARGET_DEVICES="a10s,a10sxx"
+export OF_MAINTAINER_AVATAR="/root/avatar/ItzKaguya.png"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
