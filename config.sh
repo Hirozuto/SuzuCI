@@ -22,6 +22,7 @@ DEPS=(
 )
 
 # Extra Command
+git clone https://github.com/MizuNotCool/avatar /root/avatar
 export EXTRA_CMD="export OF_MAINTAINER=ItzKaguya"
 export OF_MAINTAINER=ItzKaguya
 export ALLOW_MISSING_DEPENDENCIES=true
@@ -50,7 +51,7 @@ export FOX_BUILD_TYPE="ItzKaguya-Beta"
 export FOX_ADVANCED_SECURITY="1"
 export OF_FL_PATH1="/sys/devices/platform/flashlights_led191/led_flash"
 export OF_TARGET_DEVICES="a10s,a10sxx
-export OF_MAINTAINER_AVATAR="$(pwd)/misc/ItzKaguya.png"
+export OF_MAINTAINER_AVATAR="/root/avatar/ItzKaguya.png"
 
 
 # Magisk
