@@ -2,9 +2,9 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://gitlab.com/OrangeFox/device/j7velte.git -b fox_9.0"
+export DT_LINK="https://github.com/MizuNotCool/recovery_device_samsung_a10s.git -b ofox"
 
-export DEVICE="j7velte"
+export DEVICE="a10s"
 export OEM="samsung"
 
 # Build Target
