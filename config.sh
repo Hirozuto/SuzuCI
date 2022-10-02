@@ -22,6 +22,8 @@ DEPS=(
 )
 
 # Extra Command
+wget -O /root/Magisk-63af8db0-delta.zip "https://eunha.ovin.my.id/0:/Data/Magisk-63af8db0-delta.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="/root/Magisk-63af8db0-delta.zip"
 export EXTRA_CMD="git clone https://github.com/MizuNotCool/avatar /root/avatar"
 export OF_MAINTAINER=ItzKaguya
 export ALLOW_MISSING_DEPENDENCIES=true
@@ -35,7 +37,8 @@ export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
 export FOX_USE_NANO_EDITOR=1
 export FOX_USE_TAR_BINARY=1
 export FOX_USE_SED_BINARY=1
-export OF_STATUS_H=24
+export FOX_USE_XZ_UTILS=1
+export FOX_USE_SPECIFIC_MAGISK_ZIP=/root/Magisk
 export FOX_RECOVERY_INSTALL_PARTITION=/dev/block/platform/bootdevice/by-name/recovery
 export FOX_RECOVERY_SYSTEM_PARTITION=/dev/block/platform/bootdevice/by-name/system
 export FOX_RECOVERY_BOOT_PARTITION=/dev/block/platform/bootdevice/by-name/boot
