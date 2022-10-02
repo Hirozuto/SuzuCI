@@ -25,6 +25,22 @@ DEPS=(
 export EXTRA_CMD="git clone https://github.com/MizuNotCool/avatar /root/avatar"
 export OF_MAINTAINER=ItzKaguya
 export ALLOW_MISSING_DEPENDENCIES=true
+export OF_VANILLA_BUILD=1
+export OF_SKIP_ORANGEFOX_PROCESS=1
+export FOX_BUILD_TYPE="ItzKaguya-Beta"
+export OF_SCREEN_H=1520
+export OF_FLASHLIGHT_ENABLE=1
+export OF_FL_PATH1=/sys/devices/platform/flashlights_led191/led_flash
+export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
+export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
+export FOX_USE_NANO_EDITOR=1
+export FOX_USE_TAR_BINARY=1
+export FOX_USE_SED_BINARY=1
+export FOX_RECOVERY_INSTALL_PARTITION=/dev/block/platform/bootdevice/by-name/recovery
+export FOX_RECOVERY_SYSTEM_PARTITION=/dev/block/platform/bootdevice/by-name/system
+export FOX_RECOVERY_BOOT_PARTITION=/dev/block/platform/bootdevice/by-name/boot
+export FOX_RECOVERY_VENDOR_PARTITION=/dev/block/platform/bootdevice/by-name/vendor
+export FOX_REPLACE_TOOLBOX_GETPROP=1
 export OF_MAINTAINER_AVATAR="/root/avatar/ItzKaguya.png"
 
 # Magisk
