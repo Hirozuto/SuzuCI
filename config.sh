@@ -2,9 +2,9 @@
 
 # Device
 export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://github.com/MizuNotCool/recovery_device_samsung_a10s.git -b ofox"
+export DT_LINK="https://gitlab.com/MizuNotCool/j7velte.git -b fox_9.0"
 
-export DEVICE="a10s"
+export DEVICE="j7velte"
 export OEM="samsung"
 
 # Build Target
@@ -30,8 +30,6 @@ export ALLOW_MISSING_DEPENDENCIES=true
 export OF_VANILLA_BUILD=1
 export OF_SKIP_ORANGEFOX_PROCESS=1
 export FOX_BUILD_TYPE="ItzKaguya-Beta"
-export OF_FLASHLIGHT_ENABLE=1
-export OF_FL_PATH1=/sys/devices/platform/flashlights_led191/led_flash
 export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
 export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
 export FOX_USE_NANO_EDITOR=1
@@ -39,10 +37,6 @@ export FOX_USE_TAR_BINARY=1
 export FOX_USE_SED_BINARY=1
 export FOX_USE_XZ_UTILS=1
 export FOX_USE_SPECIFIC_MAGISK_ZIP=/root/Magisk
-export FOX_RECOVERY_INSTALL_PARTITION=/dev/block/platform/bootdevice/by-name/recovery
-export FOX_RECOVERY_SYSTEM_PARTITION=/dev/block/platform/bootdevice/by-name/system
-export FOX_RECOVERY_BOOT_PARTITION=/dev/block/platform/bootdevice/by-name/boot
-export FOX_RECOVERY_VENDOR_PARTITION=/dev/block/platform/bootdevice/by-name/vendor
 export FOX_REPLACE_TOOLBOX_GETPROP=1
 export OF_MAINTAINER_AVATAR="/root/avatar/ItzKaguya.png"
 
