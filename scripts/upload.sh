@@ -11,6 +11,13 @@ telegram_message() {
 	-d text="$1"
 }
 
+telegram-dev_message() {
+	curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+	-d chat_id="${TG_DEVCHAT_ID}" \
+	-d parse_mode="HTML" \
+	-d text="$1"
+}
+
 # Change to the Source Directory
 cd $SYNC_PATH
 
@@ -69,6 +76,23 @@ echo -e \
 TG_TEXT=$(< tg.html)
 
 telegram_message "$TG_TEXT"
+
+echo -e \
+"
+🦊 OrangeFox Recovery CI
+
+✅ Build Completed Successfully!
+
+📱 Device: "${DEVICE}"
+🖥 Build System: "${FOX_BRANCH}"
+⬇️ Download Link: <a href=\"https://t.me/ItzKaguya\">Ask @ItzKaguya if you want to test it</a>
+📅 Date: "$(date +%d\ %B\ %Y)"
+⏱ Time: "$(date +%T)"
+" > public.html
+
+PUBLIC_TEXT=$(< public.html)
+
+telegram_message "$PUBLIC_TEXT"
 
 echo " "
 
